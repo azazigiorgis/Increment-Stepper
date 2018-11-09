@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Increment Stepper</title>
+	<link rel="stylesheet" type="text/css" href="increment-stepper.css">
+</head>
+<body>
+<h1>  Increment Stepper</h1>
+<hr>
+
+<p>The <b>input type="number"</b> attributes min/max/step are all acknowledged and used by the JS script.</p>
+
+<p><label>Stepper 1: </label>
+
+  <span class="stepper"><button>–</button><input type="number" id="stepper1" value="5" min="0" max="10" step="1" readonly><button>+</button></span>
+
+  <i>(Range 0-10 step 1)</i>
+</p>
+
+<p><label>Stepper 2: </label>
+
+  <span class="stepper"><button>–</button><input type="number" id="stepper2" value="40" min="0" max="100" step="10" readonly><button>+</button></span>
+
+  <i>(Range 0-100 step 10)</i>
+</p> 
+ 
+<script type="text/javascript" src="increment-stepper.js"></script>
+</body>
+</html>
